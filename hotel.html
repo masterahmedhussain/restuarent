@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Restuarant</title>
+    <!-- font font-awesome -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/58270387da.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="hotelstyle.css" />
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar  navbar-expand-lg">
+          <a class="navbar-brand " href="">Restuarent name</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Download App</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <hr />
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <h1>The most delicious food in hyderabad.</h1>
+            <h4>Download the App now</h4>
+            <button type="button" class="btn btn-dark btn-lg download-button ">
+              <i class="fab fa-apple"></i> Download
+            </button>
+
+            <button type="button" class="btn btn-lg btn-dark download-button">
+              <i class="fab fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <img src="chef.jpg" alt="chef" class="img-chef" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class=" parafeatures col-lg-4 col-md-6">
+          <img src="chinese.jpg" alt="food" />
+          <h3>Chinese.</h3>
+          <p parafeatures>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque ea
+            nulla praesentium ipsa eveniet, aspernatur rem quaerat tempore natus
+            reiciendis libero est esse ullam corporis cupiditate distinctio
+            nobis sint in!
+          </p>
+        </div>
+        <div class=" parafeatures col-lg-4 col-md-6">
+          <img src="italianfood.jpg" alt="food" />
+
+          <h3>Italain</h3>
+          <p class="parafeatures">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+            ad adipisci, voluptatibus hic debitis facere autem blanditiis
+            assumenda alias praesentium odit quibusdam ducimus cupiditate, rerum
+            reiciendis quos saepe minus minima..
+          </p>
+        </div>
+        <div class=" parafeatures col-lg-4 col-md-12">
+          <img class="food-img" src="indianfood.jpg" alt="food" />
+          <h3>Indian</h3>
+          <p class="parafeatures">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repudiandae possimus voluptate iste reiciendis corporis obcaecati
+            veniam, aspernatur exercitationem rem? Consequatur blanditiis, vero
+            tempore odit eius possimus reiciendis itaque esse quisquam.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <h3>Speaciality</h3>
+
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h5 class="testimonial-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
+              itaque pariatur asperiores officia consectetur vitae quod sit
+              debitis corrupti, alias quae molestias saepe reiciendis earum
+              aperiam animi nulla inventore voluptatem.
+            </h5>
+
+            <img src="biryani.jpg" class=" testi-image" alt="biryani-profile" />
+            <em>BIRYANI</em>
+          </div>
+          <div class="carousel-item">
+            <h5 class="testimonial-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem consequatur et veniam repellendus ratione
+              blanditiis laborum ex dolorem recusandae debitis suscipit
+              accusantium doloremque similique sint perferendis iure eaque, modi
+              quis?
+            </h5>
+
+            <img src="kebab.png" class="testi-image" alt="kebab-profile" />
+            <em>KEBAB</em>
+          </div>
+          <div class="carousel-item">
+            <h5 class="testimonial-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem consequatur et veniam repellendus ratione
+              blanditiis laborum ex dolorem recusandae debitis suscipit
+              accusantium doloremque similique sint perferendis iure eaque, modi
+              quis?
+            </h5>
+
+            <img
+              src="chickenlollipop.jpg"
+              class="testi-image"
+              alt="kebab-profile"
+            />
+            <em>CHICKEN LOLLIPOP</em>
+          </div>
+          <div class="carousel-item">
+            <h5 class="testimonial-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem consequatur et veniam repellendus ratione
+              blanditiis laborum ex dolorem recusandae debitis suscipit
+              accusantium doloremque similique sint perferendis iure eaque, modi
+              quis?
+            </h5>
+
+            <img src="fishfry.jpg" class="testi-image" alt="kebab-profile" />
+            <em>FRIED FISH</em>
+          </div>
+        </div>
+        <div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="pricing">
+      <h2>Diffent plans for different types of food</h2>
+      <p>Simple and affordable price plans for your party.</p>
+
+      <div class=" row">
+        <div class="card mb-4 shadow-sm col-lg-4 col-md-6 col-sm-12">
+          <div class="card-header">
+            <h3>3 starter pack</h3>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              20$<small class="text-muted">/ person</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <p>chicekn kebab</p>
+              <p>chicken stick</p>
+              <p>chicken role</p>
+            </ul>
+            <button
+              type="button"
+              class="btn btn-lg btn-block btn-outline-primary"
+            >
+              Get Details
+            </button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm col-lg-4 col-md-6 col-sm-12">
+          <div class="card-header">
+            <h3>3 starter pack</h3>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              28$ <small class="text-muted">/ person</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <p>Fish</p>
+              <p>Chicken kebab</p>
+              <p>Chicken 65</p>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">
+              Get details
+            </button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm col-lg-4 col-md-6 col-md-12 col-sm-12">
+          <div class="card-header">
+            <h3>5 starter pack</h3>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              45$ <small class="text-muted">/ person</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <p>Fish</p>
+              <p>Chicken kebab</p>
+              <p>Chicken 65</p>
+              <p>Prawns</p>
+
+              <p>Chicken role</p>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">
+              Get details
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3>Taste the pride of hyderabad.</h3>
+      <button type="button"><i class="fab fa-apple"></i>Download</button>
+      <button type="button"><i class="fab fa-google-play"></i>Download</button>
+    </section>
+
+    <section id="social-media">
+      <button type="button"><i class="fab fa-facebook"></i></button>
+      <button type="button"><i class="fab fa-instagram"></i></button>
+      <button type="button"><i class="fab fa-twitter"></i></button>
+      <button type="button"><i class="fab fa-google"></i></button>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <p>
+        © Copyright 2020 Restuarant name
+        <strong>[Developed by AHMED HUSSAIN]</strong>
+      </p>
+    </footer>
+  </body>
+</html>
